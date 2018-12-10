@@ -12,6 +12,12 @@ module Danger
         "warning"          => "⚠️",
         "book"             => "\u2728",
         "white_check_mark" => "\u2705"
+      }, 
+      "gitlab" => {
+        "no_entry_sign"    => "XXX",
+        "warning"          => "!!!",
+        "book"             => "book",
+        "white_check_mark" => "checked"
       }
     }.freeze
 
