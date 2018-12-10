@@ -22,7 +22,7 @@ module Danger
     }.freeze
 
     def initialize(template)
-      @template = DATA.include?(template) ? template : "github"
+      @template = DATA.include?(template) ? template : "gitlab"
     end
 
     def map(emoji)
